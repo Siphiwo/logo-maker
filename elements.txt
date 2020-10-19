@@ -1,0 +1,16 @@
+Logo Maker App
+
+1 Select Icon 
+    - change icon color, size and position
+
+ 2 Enter Logo Text 
+    - select font, color, size and weight
+    - text shadow 
+
+3 Enter subtitle 
+    - select font, color, size and weight 
+
+
+4 Preview logo 
+
+5 Download logo - transparent background

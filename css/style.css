@@ -1,0 +1,45 @@
+:root {
+    --icon-color: #333;
+    --icon-size: 106pt;
+    --title-color: #333;
+    --title-size: 16pt;
+    --font-family: 'Abel';
+    --font-url:url('http://fonts.gstatic.com/s/abel/v12/MwQ5bhbm2POE6VhLPJp6qGI.ttf')
+}
+@font-face {
+    font-family: var(--font-family);
+    src: var(--font-url);
+  }
+.logo-container .fa {
+    color: var(--icon-color);
+    font-size: var(--icon-size);
+}
+
+.display-icons {
+    width: calc(100%/5);
+}
+.icon-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-list a{
+    display: flex;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 2px;
+}
+
+.title-container {
+    color: var(--title-color);
+    font-size: var(--title-size);
+    font-family: var(--font-family);
+    padding-left: 10px;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
